@@ -1,0 +1,39 @@
+{
+  "name": "@apjs/ml",
+  "version": "1.0.0",
+  "description": "A library that offers various levels of abstraction for building and training machine learning models",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agredo-alejo/machinelearning.git"
+  },
+  "keywords": [
+    "machinelearning",
+    "tensor",
+    "ML",
+    "linear algebra",
+    "math",
+    "vector",
+    "matrix",
+    "typescript"
+  ],
+  "author": "agredoalejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agredo-alejo/machinelearning/issues"
+  },
+  "homepage": "https://github.com/agredo-alejo/machinelearning#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@apjs/tensor": "^1.0.2",
+    "typescript": "^4.7.4"
+  }
+}
