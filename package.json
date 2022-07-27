@@ -1,6 +1,6 @@
 {
   "name": "@apjs/ml",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A library that offers various levels of abstraction for building and training machine learning models",
   "type": "module",
   "main": "build/index.js",
@@ -33,7 +33,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@apjs/tensor": "^1.0.2",
+    "@apjs/tensor": "^1.0.4",
     "typescript": "^4.7.4"
   }
 }
