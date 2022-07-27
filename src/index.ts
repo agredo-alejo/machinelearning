@@ -1,2 +1,3 @@
 export * from "./activations"
 export * from "./initializers"
+export * from "./losses"
