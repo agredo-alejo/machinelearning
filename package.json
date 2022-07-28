@@ -1,6 +1,6 @@
 {
   "name": "@apjs/ml",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A library that offers various levels of abstraction for building and training machine learning models",
   "type": "module",
   "main": "build/index.js",

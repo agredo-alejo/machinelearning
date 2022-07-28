@@ -32,7 +32,7 @@ export class NormClass extends TrainableLayer {
         this.internInputShape = this.inputShape instanceof Array ? this.inputShape.slice().map(x => Math.floor(x)) : [Math.floor(this.inputShape)]
         
 
-        this.weightsInitializer = object.weightsInitializer || "xavierNormal"
+        this.weightsInitializer = object.weightsInitializer || "ones"
         this.weightsInitializerFunction = initializersHanlder(this.weightsInitializer)
 
 
